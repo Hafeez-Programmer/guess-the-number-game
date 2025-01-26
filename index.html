@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <title>Guess The Number</title>
+</head>
+<body class="bg-blue-500 flex justify-center items-center font-[arial]">
+  <div class="bg-white min-h-[400px] min-w-[400px] rounded-xl shadow-xl mt-20 text-center p-10">
+    <h1 class="text-3xl cols-span-12">Guess The Number</h1>
+    <h3 class="mt-8">Enter the number between 1 to 100</h3>
+    <input class="outline-solid outline-black rounded mt-3 h-10 text-xl p-2 focus:outline-blue-500" type="text">
+    <br>
+    <button class="hover:outline-solid hover:outline-blue-500 hover:bg-white hover:text-blue-500 mt-8 text-white rounded-xl p-2 bg-blue-500 hover:cursor-pointer">Submit Guess</button>
+
+    <div id="result" class="mt-5"></div>
+
+    <h4 id="preGuess" class="mt-5"></h4>
+    <h4 id="remGuess" class="mt-2"></h4>
+
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
